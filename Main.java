@@ -81,7 +81,7 @@ while(true){
                                 myCourseResult.setCreditHours(Integer.parseInt(crsInfo[2]))&&
                                 myCourseResult.setSemester(Integer.parseInt(crsInfo[3]))&&
                                 myCourseResult.setMarks(Integer.parseInt(crsInfo[4])))){
-                            infoCourse = JOptionPane.showInputDialog(null, "Please enter the course information in the following format\\nCourse ID,Course Title,Credit Hours,Semester, Marks\\ne.g:\\nSWE308,Software Construction And Development,3,5,80","Student Basic Information", JOptionPane.QUESTION_MESSAGE);
+                            infoCourse = JOptionPane.showInputDialog(null, "Please enter the course information in the following format\\nCourse ID,Course Title,Credit Hours,Semester, Marks\\ne.g:\\nSWE308T or L,Software Construction And Development,3,5,80","Student Basic Information", JOptionPane.QUESTION_MESSAGE);
                             crsInfo = infoCourse.split(",");
                             if(crsInfo.length == 5){
                                 // removing extra spaces
@@ -121,7 +121,7 @@ while(true){
                                     myCourseResult.setCreditHours(Integer.parseInt(crsInfo[2]))&&
                                     myCourseResult.setSemester(Integer.parseInt(crsInfo[3]))&&
                                     myCourseResult.setMarks(Integer.parseInt(crsInfo[4])))){
-                                infoCourse = JOptionPane.showInputDialog(null, "Please enter the course information in the following format\nCourse ID,Course Title,Credit Hours,Semester, Marks\ne.g:\nMuhammad Adnan,2015-CS-51,BS","Student Basic Information", JOptionPane.QUESTION_MESSAGE);
+                                infoCourse = JOptionPane.showInputDialog(null, "Please enter the course information in the following format\nCourse ID,Course Title,Credit Hours,Semester, Marks\ne.g:\nSajid Ali,2020-SE-301,BS","Student Basic Information", JOptionPane.QUESTION_MESSAGE);
                                 crsInfo = infoCourse.split(",");
                                 if(crsInfo.length == 5){
                                    
