@@ -1,5 +1,6 @@
 
-package driver;
+package CGPACalculator;
+
 import java.awt.*;
 import java.text.*;
 import java.util.*;
@@ -345,7 +346,7 @@ public class Grading {
            JTable table = new JTable(rows, column_names);
             // Making table Appearance Better
             table.setShowGrid(false);
-            //<editor-fold defaultstate="collapsed" desc="Adjust the Widths of the Columns">
+           
             final TableColumnModel columnModel = table.getColumnModel();
             for (int column = 0; column < table.getColumnCount(); column++) {
                 int width = 15; // Min width
