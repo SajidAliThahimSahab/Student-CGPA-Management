@@ -1,5 +1,5 @@
 
-package driver;
+package CGPACalculator;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
