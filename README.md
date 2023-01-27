@@ -3,3 +3,6 @@
 2) Add Student Details
 3) Calculate CGPA
 
+1) Main Screen
+<img src="Main Screen.jpg" alt="" title="">
+
