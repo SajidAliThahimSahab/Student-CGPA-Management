@@ -8,6 +8,7 @@
 
 
 
-1) Main Screen
-<img src="Main Screen.jpg" alt="" title="1) Main Screen">
+Main Screen
+
+<img src="Main Screen.jpg" alt="1) Main Screen" title="1) Main Screen">
 
