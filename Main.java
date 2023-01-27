@@ -1,5 +1,5 @@
 
-package driver;
+package CGPACalculator;
 
 import javax.swing.*;
 
@@ -22,7 +22,7 @@ while(true){
             + "Choose 4: To Delete a course\n"
             + "Choose 5: To view all courses\n"
             + "Choose 6: To view CGPA\n"
-            + "Choose 7: To view detailed marks certificate","UET Grade Book", JOptionPane.QUESTION_MESSAGE);
+            + "Choose 7: To view detailed marks certificate","CGPA Calculator ", JOptionPane.QUESTION_MESSAGE);
 
     if(choice == ""){
         break;
